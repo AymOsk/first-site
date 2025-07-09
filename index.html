@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルなWebサイト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <div class="container">
+            <h1 class="logo">My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section id="hero">
+        <div class="container">
+            <h2>ようこそ！</h2>
+            <p>これはHTML, CSS, JSだけで作られたシンプルなWebサイトです。</p>
+            <a href="#about" class="btn">もっと見る</a>
+        </div>
+    </section>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <!-- Aboutセクション -->
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>ここに自己紹介やサイトの目的などを記述します。このセクションは、あなたが誰で、何をしているのかを訪問者に伝える絶好の機会です。</p>
+            </div>
+        </section>
+
+        <!-- Servicesセクション -->
+        <section id="services" class="content-section">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <h3>サービス 1</h3>
+                        <p>Webデザインについてのサービス詳細をここに書きます。</p>
+                    </div>
+                    <div class="card">
+                        <h3>サービス 2</h3>
+                        <p>Web開発についてのサービス詳細をここに書きます。</p>
+                    </div>
+                    <div class="card">
+                        <h3>サービス 3</h3>
+                        <p>コンサルティングについてのサービス詳細をここに書きます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contactセクション -->
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>お問い合わせは以下のメールアドレスまでお願いいたします。</p>
+                <a href="mailto:your-email@example.com" class="btn">メールを送る</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
